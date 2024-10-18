@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+  background-color: rgb(202, 203, 205);
+}
+.header {
+  background-color: rgb(255, 128, 0);
+  padding-left: 0.5rem;
+}
+.aside {
+  background-color: green;
+  width: 20%;
+  padding-left: 0.5rem;
+}
+
+.main {
+  background-color: rgb(255, 255, 255);
+  width: 80%;
+  padding: 1rem;
+  margin: 0.5rem;
+  border-radius: 1.5rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.container {
+  display: flex;
+  flex-direction: column;
+}
+.main-container {
+  display: flex;
+  height: 80vh;
+}
